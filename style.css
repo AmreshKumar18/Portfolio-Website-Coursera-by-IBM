@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+h1{
+    color:rgb(102, 102, 244);;
+}
+#header-sec{
+    background-color: rgb(61, 61, 234);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.header-left{
+    margin-left: 80px;
+    padding-bottom: 10px;
+    width: auto;
+}
+.header-left i{
+    display: flex;
+}
+.header-right{
+    margin-right: 300px;
+    display: flex;
+    /* justify-content: space-between; */
+    text-align: center;
+}
+.header-right a{
+    text-decoration: none;
+    list-style-type: none;
+    height: fit-content;
+}
+.header-right a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+}
+.header-right li{
+    color: white;
+}
+.header-right ul{
+    display: flex;
+    gap: 30%;
+    padding-bottom: 0px;
+}
+#body-sec{
+    display: flex;
+    justify-content: space-between;
+}
+#skills-sec{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    justify-content: space-between;
+    margin: 60px;
+    /* align-items: center; */
+    text-align: center;
+}
+.skills-bio{
+    /* border: 1.5px solid rgb(178, 172, 172); */
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: groove;
+}
+#Recommend{
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    margin: 50px 100px;
+}
+.re-1, .re-2, .re-3{
+    border-radius: 8px;
+    border: 1.5px solid rgb(178, 172, 172);
+    text-align: center;
+    padding: 15px;
+}
+input{
+    padding: 3px;
+    margin: auto;
+    display: block;
+    width: 500px;
+    border: 1.5px solid rgb(178, 172, 172);
+    border-radius: 3px;
+}
+textarea{
+    padding: 3px;
+    margin: auto;
+    display: block;
+    width: 500px;
+    border: 1.5px solid rgb(178, 172, 172);
+    border-radius: 3px;
+}
+/* button{
+    padding: 8px;
+    margin: auto;
+    display: block;
+    width: 100px;
+    border: 1.5px solid blueviolet;
+    border-radius: 3px;
+    color: blueviolet;
+} */
+.pr-1{
+    padding-left: 100px;
+}
+.pr-1 li{
+    padding-top: 20px;
+    padding-left: 25px;
+}
+hr{
+    height: 2px;
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 130px;
+    background-color: rgb(178, 172, 172);
+}
+.backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
+.open-modal {
+    /* background: #20c997;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    margin: auto;
+    display: block; */
+    padding: 8px;
+    margin: auto;
+    display: block;
+    width: 100px;
+    border: 1.5px solid blueviolet;
+    border-radius: 3px;
+    color: blueviolet;
+  }
+  .modal-content {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e28cea;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 400px;
+    top: 1800px;
+    
+  }
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    color: #000;
+    font-size: 30px;
+  }
+  .close-modal {
+    background: transparent;
+    border: 1.5px solid rgb(117, 52, 238);
+    border-radius: 8px;
+    margin: auto;
+    display: block;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* height: 20px;*/
+    cursor: pointer;
+    width: 120px; 
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 10px;  
+    background-color: white; 
+    transition: all 0.3s;
+  }
+  .close-modal:hover {
+    background-color: rgb(117, 52, 238);
+    color: white;
+  }
+  .modal-body img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  .modal-body p {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  .hidden-modal {
+    display: none;
+  }
+  
+  
